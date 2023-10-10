@@ -10,6 +10,7 @@ I show one way an interested user could look at their listening history by graph
 2. Download the spotify_dataset_creation.py and genre_analysis.Rmd files
 3. Replace file paths and other user-dependent variables at the top of the files as instructed.
 4. Run the python file first to generate the .csv, then run the Rmarkdown file to generate the graphs.
+   Note: some tweaking of the python file may be needed to improve the genre dictionaries created as they are hand-coded based on my listening data, and your genres may not be included. This is further outlined in comments in the code.
 
 
 Credit to Vlad Gheorghe and his piece on towardsdatascience.com which inspired and helped me with this project. Article can be found here: https://towardsdatascience.com/get-your-spotify-streaming-history-with-python-d5a208bbcbd3.
